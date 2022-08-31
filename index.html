@@ -12,14 +12,24 @@
     <form class="grid-container" onsubmit="takeInput()">
         <div class="grid-item1">Daily Intake</div>
         <div class="grid-item2">Body weight: </div>
-        <div><input id="bodyweight" type="number"></div>
+        <div class="grid-item2b"><input id="bodyweight" type="number"></div>
+        <select class ="grid-item2c" name="units" id="units">
+            <option>lb</option>
+            <option>kg</option>
+        </select>
         <div class="grid-item3">Height: </div>
-        <div><input id="height" type="number"></div>
-        <div class="grid-item4">Age: </div>
-        <div><input id="age" type="number"></div>
-        <div class="grid-item5">Goal: </div>
-        <div>Weight loss <input id="lose" type="radio" name="group1"> Weight gain <input id="gain" type="radio" name="group1"></div>
-        <div class="grid-item6"><input type="submit" value="Calculate"></div> 
+        <div class="grid-item3b"><input id="height" type="number"></div>
+        <select class ="grid-item3c" name="units" id="units">
+            <option>inches</option>
+            <option>cm</option>
+        </select>
+        <div class="grid-item4">Age (years): </div>
+        <div class="grid-item4b"><input id="age" type="number"></div>
+        <div class="grid-item5">Sex: </div>
+        <div class="grid-item5b">Male <input id="male" type="radio" name="group2"> Female <input id="female" type="radio" name="group2"></div>
+        <div class="grid-item6">Goal: </div>
+        <div class="grid-item6b">Weight loss <input id="lose" type="radio" name="group1"> Weight gain <input id="gain" type="radio" name="group1"></div>
+        <div class="grid-item7"><input type="submit" value="Calculate"></div> 
     </form>
 </body>
 </html>

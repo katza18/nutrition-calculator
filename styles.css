@@ -15,7 +15,7 @@ html, body {
 }
 
 .grid-item1 {
-    grid-column: 1/3;
+    grid-column: 1/4;
     margin:auto;
     font-weight: 700;
     font-size: larger;
@@ -25,25 +25,62 @@ html, body {
     grid-column: 1/2;
     grid-row: 2/3;
 }
+.grid-item2b {
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.grid-item2c {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
 .grid-item3 {
     grid-column: 1/2;
+    grid-row: 3/4;
+}
+.grid-item3b {
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.grid-item3c {
+    grid-column: 3/4;
     grid-row: 3/4;
 }
 .grid-item4 {
     grid-column: 1/2;
     grid-row: 4/5;
 }
+.grid-item4b {
+    grid-column: 2/3;
+    grid-row: 4/5;
+}
 .grid-item5 {
     grid-column: 1/2;
     grid-row: 5/6;
 }
+.grid-item5b {
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+
 .grid-item6 {
     grid-column: 1/3;
     grid-row: 6/7;
+}
+.grid-item6b {
+    grid-column: 2/3;
+    grid-row: 6/7;
+}
+.grid-item7 {
+    grid-column: 1/3;
+    grid-row: 7/8;
     margin:auto;
     margin-top: 1em;
 }
 
 .calculator {
     border: solid black 3px;
+}
+
+select {
+    width: 6em;
 }
